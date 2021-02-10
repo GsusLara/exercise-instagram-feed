@@ -1,0 +1,71 @@
+#pagina{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+    background: #a9abad65
+}
+#encabezado{
+    height: 100px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    background: white;
+}
+#encabezado img{
+    float: left;
+    height: 72px;
+    margin-left: 175px;
+}
+.day{
+    position: relative;
+    margin: 40px auto 40px auto;
+    width: 400px;
+    height: 450px;
+    background: white;
+}
+.titulo{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 20px;
+    font-size: 10px;
+}
+.fecha{
+    position: absolute;
+    display: block;
+    top: 0px; 
+    right: 0px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+}
+.foto{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 100px; 
+    width: 400px;
+    height: auto;
+}
+.foto img{
+    width: 100%;
+    height: auto;
+}
+.coment{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+    width: 370px;
+    height: 50px;
+    bottom: 0;
+    font-size: 12px;
+    
+}
+footer{
+    text-align: center;
+}
